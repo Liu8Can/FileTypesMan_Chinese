@@ -16,6 +16,7 @@ FileTypesMan 是由 NirSoft 开发的一款强大的 Windows 文件类型管理�
 
 ## 关于此汉化版本
 
+
 *   **软件原作者：** Nir Sofer (NirSoft)
 *   **官方网站 (英文原版)：** [https://www.nirsoft.net/utils/file_types_manager.html](https://www.nirsoft.net/utils/file_types_manager.html) (官方版本仅支持英文)
 *   **汉化来源：** 本仓库提供的汉化版本来源于 **吾爱破解论坛用户** 的分享。原始分享帖地址：[https://www.52pojie.cn/thread-1947297-1-1.html](https://www.52pojie.cn/thread-1947297-1-1.html)。**我并非此软件的汉化作者，仅作搬运和整理分享。**
@@ -28,6 +29,8 @@ FileTypesMan 是由 NirSoft 开发的一款强大的 Windows 文件类型管理�
 *   **功能强大：** 除了修改图标，还可以管理文件类型的其他属性和动作。
 
 ## 如何使用 (以修改 NanaZip 关联图标为例)
+
+![image](https://github.com/user-attachments/assets/594c3776-3d71-4b03-b549-38271a8aac86)
 
 以将 `.zip` 或 `.7z` 等压缩文件的默认显示图标更改为 NanaZip 软件本身的图标为例：
 
