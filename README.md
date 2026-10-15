@@ -18,7 +18,9 @@ FileTypesMan 是由 NirSoft 开发的一款强大的 Windows 文件类型管理�
 
 *   **软件原作者：** Nir Sofer (NirSoft)
 *   **官方网站 (英文原版)：** [https://www.nirsoft.net/utils/file_types_manager.html](https://www.nirsoft.net/utils/file_types_manager.html)
-*   **版本信息：** 此为 **FileTypesMan v2.01 (64-bit)** 最新官方版本。
+*   **版本信息：** 此为 **FileTypesMan v2.01 (64-bit)** 官方最新版本。
+*   **汉化维护：** 本项目所有者 **哔哩哔哩 [沧浪同学](https://github.com/Liu8Can/FileTypesMan_Chinese)**。
+    *(注：早期版本曾参考社区分享；自 v2.01 起由本项目独立维护、跟进官方最新条目，并彻底重构修复了编码乱码问题。)*
 *   **更新说明 (v2.01 更新与乱码修复)：**
     *   **彻底修复程序乱码 (Issue #1)**：将语言文件 `FileTypesMan_lng.ini` 升级为 Windows Win32 标准的 **UTF-16 Little Endian (带 BOM)** 编码。即使系统启用了【Beta版: 使用 Unicode UTF-8 提供全球语言支持】或在英文/多语言管理员提权环境下，也绝不会出现黑色菱形问号（``）乱码，全平台完美显示。
     *   **新增功能汉化**：补译了 v2.01 新增的 `查看 -> 黑色背景(&B)` (Black Background) 深色模式功能。
