@@ -1,10 +1,10 @@
-# FileTypesMan v2.0 简体中文汉化版
+# FileTypesMan v2.01 简体中文汉化版
 
 **仓库地址:** [https://github.com/Liu8Can/FileTypesMan_Chinese](https://github.com/Liu8Can/FileTypesMan_Chinese)
 
 ## 简介
 
-本仓库托管 **FileTypesMan v2.0** 的简体中文汉化版本。
+本仓库托管 **FileTypesMan v2.01** 的简体中文汉化版本。
 
 FileTypesMan 是由 NirSoft 开发的一款强大的 Windows 文件类型管理工具。它允许用户查看系统中所有文件扩展名的详细信息，并轻松编辑它们的属性、关联的程序、动作、以及 **默认图标** 等。
 
@@ -16,11 +16,12 @@ FileTypesMan 是由 NirSoft 开发的一款强大的 Windows 文件类型管理�
 
 ## 关于此汉化版本
 
-
 *   **软件原作者：** Nir Sofer (NirSoft)
-*   **官方网站 (英文原版)：** [https://www.nirsoft.net/utils/file_types_manager.html](https://www.nirsoft.net/utils/file_types_manager.html) (官方版本仅支持英文)
-*   **汉化来源：** 本仓库提供的汉化版本来源于 **吾爱破解论坛用户** 的分享。原始分享帖地址：[https://www.52pojie.cn/thread-1947297-1-1.html](https://www.52pojie.cn/thread-1947297-1-1.html)。**我并非此软件的汉化作者，仅作搬运和整理分享。**
-*   **版本信息：** 此为 FileTypesMan v2.0 版本 (截至 2025年4月14日 的 NirSoft 官网最新版本)。
+*   **官方网站 (英文原版)：** [https://www.nirsoft.net/utils/file_types_manager.html](https://www.nirsoft.net/utils/file_types_manager.html)
+*   **版本信息：** 此为 **FileTypesMan v2.01 (64-bit)** 最新官方版本。
+*   **更新说明 (v2.01 更新与乱码修复)：**
+    *   **彻底修复程序乱码 (Issue #1)**：将语言文件 `FileTypesMan_lng.ini` 升级为 Windows Win32 标准的 **UTF-16 Little Endian (带 BOM)** 编码。即使系统启用了【Beta版: 使用 Unicode UTF-8 提供全球语言支持】或在英文/多语言管理员提权环境下，也绝不会出现黑色菱形问号（``）乱码，全平台完美显示。
+    *   **新增功能汉化**：补译了 v2.01 新增的 `查看 -> 黑色背景(&B)` (Black Background) 深色模式功能。
 
 ## 为何使用 FileTypesMan 更改图标？
 
@@ -40,7 +41,7 @@ FileTypesMan 是由 NirSoft 开发的一款强大的 Windows 文件类型管理�
     *   **【推荐】** 将下载好的 `NanaZip.ico` 文件或其他你想要使用的 `.ico` 图标文件，直接放在与 `FileTypesMan.exe` 相同的文件夹下。这样在后续步骤中更容易找到它。
 
 2.  **运行 FileTypesMan：**
-    *   从本仓库下载并解压文件。
+    *   从本仓库 [Releases](https://github.com/Liu8Can/FileTypesMan_Chinese/releases) 下载最新压缩包并解压。
     *   双击运行 `FileTypesMan.exe`。
     *   程序启动后会扫描系统中的文件类型，请稍作等待。
 
@@ -66,7 +67,7 @@ FileTypesMan 是由 NirSoft 开发的一款强大的 Windows 文件类型管理�
 ## 注意事项
 
 *   修改文件类型关联和图标属于系统级别的更改，请了解操作含义后再进行。
-*   对本汉化软件的任何疑问，请优先参考原版软件说明和汉化来源帖。
+*   本工具基于 NirSoft 官方原版制作，仅添加 UTF-16 LE 汉化配置文件，未修改任何主程序二进制代码，安全无毒。
 
 ---
 
